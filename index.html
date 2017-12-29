@@ -15,9 +15,25 @@
             vertical-align: top;
         }
 
+        img#responsive {
+                display: none;
+            }
+
+        @media screen and (max-width: 768px) {
+            
+            img {
+                display: none;
+            }
+
+            img#responsive {
+                display: block;
+            }
+        }
+
     </style>
 </head>
 <body>
+    <img src="./images/invie-responsive.png" alt="" id="responsive">
     <img src="./images/header.jpg" alt="HEADER">
     <img src="./images/hero.jpg" alt="HERO">
     <img src="./images/acustica.jpg" alt="ACÚSTICA">
